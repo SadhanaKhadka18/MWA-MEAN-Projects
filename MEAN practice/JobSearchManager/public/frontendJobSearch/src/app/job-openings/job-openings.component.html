@@ -1,0 +1,14 @@
+<ul>
+    <li *ngFor="let jobOpening of jobOpenings"><a routerLink="/jobOpening/{{jobOpening.id}}">{{jobOpening.title}}</a></li>
+</ul>
+<button routerLink="/addJobOpening">Add Job Opening</button>
+<button (click)="sortJobs()">Sort Job Opening</button>
+
+
+<select [(ngModel)]="selectedOptions" multiple>
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select>
+
+  <button (click)="select()">submit select</button>

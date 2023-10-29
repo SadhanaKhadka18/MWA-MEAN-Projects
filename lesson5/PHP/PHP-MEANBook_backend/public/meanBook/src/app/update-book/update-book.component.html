@@ -1,0 +1,25 @@
+<form [formGroup]="updateBookForm" (ngSubmit)="onUpdateBookFormSubmit()" class="mb-4">
+    <div class="form-group">
+        <label for="title">Book Title:</label>
+        <input type="text" id="title" placeholder="Book Title" formControlName="title" class="form-control">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="noOfPages">Number of Pages in Book:</label>
+        <input type="text" id="noOfPages" placeholder="Number of Pages" formControlName="noOfPages"
+            class="form-control">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="year">Book Published Year:</label>
+        <input type="text" id="year" placeholder="Book Published Year" formControlName="year" class="form-control">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="publisherName">Book Publisher Name:</label>
+        <input type="text" id="publisherName" placeholder="Publisher Name" formControlName="publisherName"
+            class="form-control">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Update Book</button>
+</form>

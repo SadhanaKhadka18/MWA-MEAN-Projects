@@ -1,0 +1,9 @@
+<h1 >Job Title : {{jobOpening.title}}</h1>
+<h5>Location :{{jobOpening.location.city}}- {{jobOpening.location.state}},{{jobOpening.location.street}}</h5>
+<h5>Job description : {{jobOpening.description}}</h5>
+<h5>Experience required: {{jobOpening.experience}}</h5>
+<h5>Skills : {{jobOpening.skills}}</h5>
+<h5>Posted Date : {{jobOpening.postDate|date}}</h5>
+
+<button (click)="onDeleteJob()"> Delete Job Opening</button>
+<button routerLink="/updateJobOpening/{{jobOpening.id}}"> Update Job Opening</button>

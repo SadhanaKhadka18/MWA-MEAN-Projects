@@ -1,0 +1,252 @@
+[{
+	"_id": {
+		"$oid": "65221a04141426089666c5e5"
+	},
+	"title": "In five years",
+	"noOfPages": 272,
+	"year": 2020,
+	"publisherName": "Atria Books",
+	"authors": [
+		{
+			"name": "Rebecca Serle",
+			"description": "Rebecca Serle is the New York Times bestselling author of Expiration Dates, One Italian Summer, In Five Years, The Dinner List, and the young adult novels The Edge of Falling and When You Were Mine. Serle also developed the hit TV adaptation Famous in Love, based on her YA series of the same name. She is a graduate of USC and The New School and lives in Los Angeles.",
+			"location": {
+				"coordinates": [
+					-74.006,
+					40.7128
+				]
+			},
+			"_id": {
+				"$oid": "65309e1402b3adc5afa565f5"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "652219c9141426089666c5e2"
+	},
+	"title": "The defining decade",
+	"noOfPages": 239,
+	"year": 2021,
+	"publisherName": "Grand Central Publishing",
+	"authors": [
+		{
+			"name": "Meg Jay",
+			"description": "Meg Jay,PhD , is a clinical psychologist, who specializes in adult development and twentysomethings, in particular. She is an assistant clinical professor at University of Virginia, and maintains a private practice in Charlottecille, Virginia. Dr. Jay earned a doctorate in clinical pyshology , and in gender studies, from the University of California,Berkeley",
+			"location": {
+				"coordinates": [
+					-74.006,
+					40.7128
+				]
+			},
+			"_id": {
+				"$oid": "6530a11002b3adc5afa56650"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "65221986141426089666c5dd"
+	},
+	"title": "Forest of Pygmies",
+	"noOfPages": 448,
+	"year": 2005,
+	"publisherName": "Plaza & James Editores",
+	"authors": [
+		{
+			"name": "Isabel Allende",
+			"description": "Isabel Allende is a Chilean-American author known for her magical realism style. Notable works include 'The House of the Spirits.' Her themes revolve around love, family, and politics, often influenced by her experiences in Chile and her activism. She has received prestigious awards and co-founded the Isabel Allende Foundation to support women's and girls' empowerment.",
+			"location": {
+				"coordinates": [
+					-70.6693,
+					-33.4489
+				]
+			},
+			"_id": {
+				"$oid": "653129fb02b3adc5afa56723"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "652357a518ebac45b37ed15b"
+	},
+	"title": "The Notebook",
+	"noOfPages": 214,
+	"year": 1996,
+	"publisherName": "Warner Books",
+	"authors": [
+		{
+			"name": "Nicholas Sparks",
+			"description": "Nicholas Sparks is an American novelist known for his heartfelt and emotionally-charged romantic novels. 'The Notebook' is one of his most famous works, telling the story of Noah and Allie, whose love transcends time and memory. Sparks' novels are celebrated for their touching love stories and exploration of human emotions.",
+			"location": {
+				"coordinates": [
+					-74.009,
+					30.04
+				]
+			},
+			"_id": {
+				"$oid": "65312ab402b3adc5afa56742"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "65221a51141426089666c5e8"
+	},
+	"title": "It never Ends With Us",
+	"noOfPages": 376,
+	"year": 2016,
+	"publisherName": "Atria Books",
+	"authors": [
+		{
+			"name": "Colleen Hoover",
+			"description": "Colleen Hoover is a renowned author specializing in emotionally impactful romance novels that delve into themes of love, adversity, and personal growth. Her works, such as 'Slammed' and 'It Ends with Us,' are celebrated for their compelling storytelling and have attracted a devoted following.",
+			"location": {
+				"coordinates": [
+					-70.6693,
+					40.7128
+				]
+			},
+			"_id": {
+				"$oid": "65312bba02b3adc5afa56759"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "652355c318ebac45b37ed0f0"
+	},
+	"title": "The Hitchhiker's Guide to the Galaxy",
+	"noOfPages": 224,
+	"year": 1979,
+	"publisherName": "Pan Books",
+	"authors": [
+		{
+			"name": "Douglas Adams",
+			"description": "Douglas Adams was an English author, best known for his science fiction series 'The Hitchhiker's Guide to the Galaxy.' His writing is characterized by humor and wit, and he explored topics such as the absurdity of human existence.",
+			"location": {
+				"coordinates": [
+					0.118092,
+					51.509865
+				]
+			},
+			"_id": {
+				"$oid": "65312c1602b3adc5afa5677e"
+			}
+		},
+		{
+			"name": "Mark Carwardine",
+			"description": "Mark Carwardine is a British zoologist and conservationist who collaborated with Douglas Adams on the book 'Last Chance to See,' which documented their travels to observe endangered species around the world.",
+			"location": {
+				"coordinates": [
+					0.118092,
+					51.509865
+				]
+			},
+			"_id": {
+				"$oid": "65312c5702b3adc5afa567a2"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6522e70579674d14a1a29386"
+	},
+	"title": "Good Omens",
+	"noOfPages": 288,
+	"year": 1990,
+	"publisherName": "Gollancz",
+	"authors": [
+		{
+			"name": "Neil gaiman",
+			"description": "Neil Richard MacKinnon Gaiman is an English author of short fiction, novels, comic books, graphic novels, audio theatre, and a screenwriter. His works include the comic book series The Sandman and the novels Good Omens, Stardust, Anansi Boys, American Gods, Coraline, and The Graveyard Book.",
+			"location": {
+				"coordinates": [
+					0.118092,
+					51.509865
+				]
+			},
+			"_id": {
+				"$oid": "65312c8d02b3adc5afa567c3"
+			}
+		},
+		{
+			"name": "Terry Pratchett",
+			"description": "Sir Terence David John Pratchett OBE was an English humorist, satirist, and author of fantasy novels, especially comical works. He is best known for his Discworld series of 41 novels. Pratchett's first novel, The Carpet People, was published in 1971.",
+			"location": {
+				"coordinates": [
+					0.118092,
+					51.509865
+				]
+			},
+			"_id": {
+				"$oid": "65312cba02b3adc5afa567cd"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6523576318ebac45b37ed14d"
+	},
+	"title": "Thinking, Fast and Slow",
+	"noOfPages": 499,
+	"year": 2011,
+	"publisherName": "Farrar, Straus and Giroux",
+	"authors": [
+		{
+			"name": "Daniel Kahneman",
+			"description": "Daniel Kahneman is an Israeli-American psychologist and Nobel laureate known for his groundbreaking work in behavioral economics and decision-making. In 'Thinking, Fast and Slow,' he explores the two systems of thinking that drive how we make choices and decisions. His work has had a profound impact on our understanding of human behavior and rationality.",
+			"location": {
+				"coordinates": [
+					35.2137,
+					31.7683
+				]
+			},
+			"_id": {
+				"$oid": "65312d0d02b3adc5afa567f7"
+			}
+		}
+	],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "65221abc141426089666c5f5"
+	},
+	"title": "The Monk Who Sold His Ferrari",
+	"noOfPages": 198,
+	"year": 1996,
+	"publisherName": "HarperCollins",
+	"authors": [
+		{
+			"name": "Robin Sharma",
+			"description": "Robin Sharma is a Canadian author and speaker known for his motivational and self-help books, such as 'The Monk Who Sold His Ferrari' and 'The 5 AM Club, 'which offer advice on personal development, leadership, and living a fulfilling life. His work has inspired many to pursue personal growth and success.",
+			"location": {
+				"coordinates": [
+					-97.1384,
+					49.8951
+				]
+			},
+			"_id": {
+				"$oid": "65312da002b3adc5afa56815"
+			}
+		}
+	],
+	"__v": 0
+}]
+

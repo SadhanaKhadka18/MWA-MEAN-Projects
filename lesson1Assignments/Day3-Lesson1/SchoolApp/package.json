@@ -1,0 +1,17 @@
+{
+  "name": "schoolapp",
+  "version": "1.0.0",
+  "description": "school app that returns students",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sadhana khadka",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

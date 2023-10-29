@@ -1,0 +1,11 @@
+<ul>
+    <li *ngFor="let book of books">
+        <a routerLink="/book/{{book._id}}">{{book.title}}</a>
+    </li>
+</ul>
+<br>
+<button class="btn btn-primary" (click)="previousPage()" [disabled]="isPreviousDisabled()">Previous</button>
+<button class="btn btn-primary" (click)="nextPage()" [disabled]="isNextDisabled()">Next</button>
+<br><br>
+<button *ngIf="isLoggedIn()" class="btn btn-success" routerLink="/addBook">Add Book</button>
+<button class="btn btn-info" (click)="sortBooks()">Sort Books</button>

@@ -1,0 +1,19 @@
+{
+  "name": "meangame",
+  "version": "1.0.0",
+  "description": "mean game using Mangoose",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev":"nodemon --inspect",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sadhana Khadka",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0",
+    "nodemon": "^3.0.1"
+  }
+}

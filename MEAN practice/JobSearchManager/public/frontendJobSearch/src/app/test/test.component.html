@@ -1,0 +1,24 @@
+<div>
+    <label>
+      <input type="radio" [(ngModel)]="numberOfMovies" [value]="5" (change)="updateNumberOfMovies(5)" /> 5 Movies
+    </label>
+    <label>
+      <input type="radio" [(ngModel)]="numberOfMovies" [value]="10"  (change)="updateNumberOfMovies(10)"/> 10 Movies
+    </label>
+    <label>
+      <input type="radio" [(ngModel)]="numberOfMovies" [value]="15" (change)="updateNumberOfMovies(15)"/> 15 Movies
+    </label>
+  </div>
+
+  <div *ngFor="let item of items">
+    <label>
+      <input
+        type="checkbox"
+        [checked]="selectedItems.includes(item)"
+        (change)="toggleSelection(item)"
+      />
+      {{ item }}
+    </label>
+  </div>
+
+  

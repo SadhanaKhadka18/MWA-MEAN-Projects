@@ -1,0 +1,7 @@
+
+1.	User must first register to login, each username and name should be unique.
+2.	User must be logged in to add book, edit book, delete book, add author, edit author and delete author.
+3.	Without login books and author can only be viewed
+4.	Geo search can be done by giving desired coordinates and km within which to be searched (search for books which authors are nearer to   given coordinates)
+5.	For Book update patch is used (partial Update)
+6.	 for author update put is used (full Update)

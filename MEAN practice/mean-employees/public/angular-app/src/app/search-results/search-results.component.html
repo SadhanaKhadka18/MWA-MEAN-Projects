@@ -1,0 +1,14 @@
+<div>Search results</div>
+<div *ngIf="!isEmptyresult;then show else notShow"></div>
+    <ng-template #show>
+        <ul>
+            <li *ngFor="let employee of employees">
+                <a routerLink="/employees/{{employee._id}}">{{employee.id}} - {{employee.name}}</a>
+            </li>
+        </ul>
+    </ng-template>
+<ng-template #notShow>
+    <p>No Employee found</p>
+
+</ng-template>
+    

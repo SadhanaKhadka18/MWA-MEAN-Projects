@@ -1,0 +1,26 @@
+<h1 class="display-4">Add Author</h1>
+
+<form #addAuthorForm="ngForm" (ngSubmit)="submitAddAuthorForm()">
+    <div class="form-group">
+        <label for="name">Author Name:</label>
+        <input type="text" id="name" name="name" placeholder="Author Name" [(ngModel)]="addAuthorData.name"
+            class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="description">Author Description:</label>
+        <input type="text" id="description" name="description" placeholder="Author Description"
+            [(ngModel)]="addAuthorData.description" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="latitude">Author's Location Latitude:</label>
+        <input type="text" id="latitude" name="latitude" placeholder="Author Latitude"
+            [(ngModel)]="addAuthorData.latitude" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="longitude">Author's Location Longitude:</label>
+        <input type="text" id="longitude" name="longitude" placeholder="Author Longitude"
+            [(ngModel)]="addAuthorData.longitude" class="form-control">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Add Author</button>
+</form>

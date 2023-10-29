@@ -1,0 +1,42 @@
+<form [formGroup]="addBookForm" (ngSubmit)="onAddBookFormSubmit()" class="mb-4">
+    <div class="form-group">
+        <label for="title">Book Title:</label>
+        <input type="text" class="form-control" placeholder="Book Title" formControlName="title">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="noOfPages">Number of Pages in Book:</label>
+        <input type="text" class="form-control" placeholder="Number of Pages" formControlName="noOfPages">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="year">Book Published Year:</label>
+        <input type="text" class="form-control" placeholder="Book Published Year" formControlName="year">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="publisherName">Book Publisher Name:</label>
+        <input type="text" class="form-control" placeholder="Publisher Name" formControlName="publisherName">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="authorName">Author Name:</label>
+        <input type="text" class="form-control" placeholder="Author Name" formControlName="authorName">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="authorDescription">Author Description:</label>
+        <input type="text" class="form-control" placeholder="Author Description" formControlName="authorDescription">
+    </div>
+    <div class="form-group">
+        <label for="authorLatitude">Author's Location Latitude:</label>
+        <input type="text" class="form-control" placeholder="Author Latitude" formControlName="authorLatitude">
+    </div>
+    <div class="form-group">
+        <label for="authorLongitude">Author's Location Longitude:</label>
+        <input type="text" class="form-control" placeholder="Author Longitude" formControlName="authorLongitude">
+    </div>
+    <br>
+
+    <button type="submit" class="btn btn-primary">Add Book</button>
+</form>

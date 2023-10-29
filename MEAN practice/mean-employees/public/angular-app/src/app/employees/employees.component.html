@@ -1,0 +1,13 @@
+The list of Employees are:<br/>
+
+<ul>
+    <li *ngFor="let employee of employees">
+        <a routerLink="{{employee._id}}">{{employee.id}} - {{employee.name}}</a>
+    </li>
+</ul>
+
+<div>
+    <button (click)="previousPage()"[disabled]="isPreviousDisabled()">Previous</button>
+    <button (click)="nextPage()" [disabled]="isNextDisabled()">next</button>
+</div>
+

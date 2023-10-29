@@ -1,0 +1,9 @@
+<form searchEmployeeForm="ngForm" (ngSubmit)="onSubmitSearchForm()">
+
+    <div>
+        <label>Type name to search :</label>
+        &nbsp;&nbsp;
+        <input type="text" placeholder="name to search" name="name" [(ngModel)]="employeeSearchData.name">
+    </div>
+    <button type="submit">Search</button>
+</form>

@@ -1,0 +1,18 @@
+{
+  "name": "meangameapp",
+  "version": "1.0.0",
+  "description": "Mean game with MondoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sadhana Khadka",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^4.16.0",
+    "nodemon": "^3.0.1"
+  }
+}

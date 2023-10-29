@@ -1,0 +1,42 @@
+<div><br></div>
+<form [formGroup]="updateGameForm" (ngSubmit)="onUpdateGameFormSubmit()">
+    <div>
+        <label> Title :</label>
+        <input type="text" placeholder="title" id="title" formControlName="title">
+    </div>
+    <br />
+    <div>
+        <label> Year :</label>
+        <input type="text" placeholder="year" id="year" formControlName="year">
+    </div>
+    <br />
+    <div>
+        <label> Rate :</label>
+        <input type="text" placeholder="rate" id="rate" formControlName="rate">
+    </div>
+    <br />
+    <div>
+        <label> Price :</label>
+        <input type="text" placeholder="Price" id="Price" formControlName="price">
+    </div>
+    <br />
+    <div>
+        <label> Minimum Players :</label>
+        <input type="text" placeholder="Minimum Players" id="minPlayers" formControlName="minPlayers">
+    </div>
+    <br />
+    <div>
+        <label> Maximum Players :</label>
+        <input type="text" placeholder=" Maximum Players" id="maxPlayers" formControlName="maxPlayers">
+    </div>
+    <br />
+    <div>
+        <label> Minimum Age :</label>
+        <input type="text" placeholder="Minimum Age" id="minAge" formControlName="minAge">
+    </div>
+    <br />
+
+    <div>
+        <button type="submit">Update Game</button>
+    </div>
+</form>

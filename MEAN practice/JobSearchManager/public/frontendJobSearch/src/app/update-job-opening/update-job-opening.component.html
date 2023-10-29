@@ -1,0 +1,50 @@
+<h1>Update Job Opening </h1>
+<form [formGroup]="updateJobOpeningForm" (ngSubmit)="SubmitUpdateJobOpeningForm()">
+<div>
+    <label>Title</label>
+    <input type="text" size="50px" name="title" placeholder="Job Title" formControlName="title">
+</div>
+<br/>
+<div>
+    <label>Salary</label>
+    <input type="text" name="salary" placeholder="Salary" formControlName="salary">
+</div>
+<br/>
+<div>
+    <label>State</label>
+    <input type="text"   name="state" placeholder="state" formControlName="state">
+</div>
+<br/>
+<div>
+    <label>City</label>
+    <input type="text" name="city" placeholder="city" formControlName="city">
+</div>
+<br/>
+<div>
+    <label>Street</label>
+    <input type="text" name="street" placeholder="street" formControlName="street">
+</div>
+<br/>
+<div>
+    <label>Zip</label>
+    <input type="text" name="zip" placeholder="zip" formControlName="zip">
+</div>
+<br/>
+<div>
+    <label>Job Description</label>
+    <input type="text" name="Jd" size="50px" placeholder="Job Description" formControlName="description">
+</div>
+<br/>
+<div>
+    <label>Experience</label>
+    <input type="text"  size="50px" name="experience" placeholder="experience" formControlName="experience">
+</div>
+<br/>
+<div>
+    <label>Skills</label>
+    <input type="text" size="50px" name="skills" placeholder="skills" formControlName="skills">
+</div>
+<br/>
+<button type="submit">Update Job Opening</button>
+
+</form>
